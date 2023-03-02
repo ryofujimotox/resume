@@ -101,222 +101,191 @@
       サーバー側での動画編集処理を提案し、実現することができました。
       このような技術的な課題を解決するには、フルスタックの経験と技術が重要だと感じました。
 
+---
+
+
+## 教育支援システム(2022-06~ 4ヶ月)
+
+- プロジェクトカテゴリ: (WEBサービス, 業務システム, 受託開発)
+- 担当工程: (設計, コーディング, テスト, 運用/保守)
+- 経験した職種・役割: (フロントエンド, バックエンド, インフラ) 
+- 使っていた技術: (PHP, React, 自然言語処理, AWS, MySQL )
+
+課題に対する生徒の意見を集計することがメインのシステムになります。
+
+#### チームの構成と立ち位置
+
+- CSSとHTMLの担当 x2名
+- CSS以外の担当 x1名 （自分）
+
+#### 背景
+
+当初、別の企業が開発していたシステムを改修する依頼でしたが、
+改修規模が大きく、扱い慣れていない技術を使用していたため、システムを作り直すことにしました。
+DB構造から見直しながらも、大きく仕様は変えないことを念頭に置いて開発を進めました。
+
+#### 開発内容・課題
+
+1. 形態素解析
+MeCabを利用し出現頻度の高いワードを算出しました。
+また、管理画面上からMeCabの辞書を更新することで、NGワードや造語にも対応しました。
+
+2. 多種多様なポップアップ
+CakePHPでは大変な作業でしたが、フロント言語をReactにすることで難なく実装できました。
+( 編集するとき、戻る時のアラート、ファイルをアップロードするとき )
+---
 
 
 
 
 
+## 内覧受付システム(2021-10~ 2ヶ月)
+
+- プロジェクトカテゴリ: (WEBサービス, 受託開発)
+- 担当工程: (設計, コーディング, テスト, 運用/保守)
+- 経験した職種・役割: (バックエンド, インフラ) 
+- 使っていた技術: (PHP, WordPress, Apache, MySQL)
 
 
+スムーズな内覧受付機能を重視したホームページです。
+
+#### チームの構成と立ち位置
+
+- デザイナー x1名
+- フロントエンド x2名
+- テーマ制作、API開発 x1名 （自分）
+
+#### 開発内容・課題
+
+1. 多言語化
+1つの物件に対する項目量が多いため、日本語の枠の隣に英語用の枠を用意するのではなく、
+英語用のサイトとして、サイトごと複製することが最善の策だと判断しました。
+今思えば、DeepLで自動翻訳する策も視野に入れるべきだったかと悔いが残ります。
 
 
+#### 成果
 
+REST APIを使う際のフロントエンド部署との連携の難しさと、実装した時の使いやすさを再認識しました。
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+そこで、まずはSwaggerを利用して可読性の高いAPI設計書を作成することと、
+自分自身でReactを学んで、連携まで実現することを目指すことに決めました。
 
 ---
 
-## 業務外活動
 
-### OSS・個人開発活動
 
-#### 主要リポジトリ
 
-<table>
-  <thead>
-    <tr>
-      <td><b>Projects</b></td>
-      <td><b>Lang / FW</b></td>
-      <td><b>Stars</b></td>
-      <td><b>Forks</b></td>
-      <td><b>Issues</b></td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/chikamichi"><b>Chikamichi</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img alt="Vue" src="https://img.shields.io/badge/-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/chikamichi?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/chikamichi?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/chikamichi?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/vue-word-highlighter"><b>Vue Word Highlighter</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img alt="Vue" src="https://img.shields.io/badge/-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/vue-word-highlighter?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/vue-word-highlighter?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/vue-word-highlighter?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/vue-word-highlighter"><b>suppress ts errors</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/suppress-ts-errors?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/suppress-ts-errors?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/suppress-ts-errors?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/github-trending-bot"><b>GitHub Trending Bot</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/github-trending-bot?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/github-trending-bot?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/github-trending-bot?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/sync-raise-hand"><b>Sync Raise hand</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img alt="Vue" src="https://img.shields.io/badge/-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/sync-raise-hand?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/sync-raise-hand?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/sync-raise-hand?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/v-change-tags-order"><b>V Change Tags Order</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/v-change-tags-order?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/v-change-tags-order?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/v-change-tags-order?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/animated-emoji-gen"><b>Animated emoji gen</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /> <img alt="Vue" src="https://img.shields.io/badge/-4FC08D?style=flat-square&logo=Vue.js&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/animated-emoji-gen?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/animated-emoji-gen?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/animated-emoji-gen?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-	  <tr>
-      <td><a href="https://github.com/kawamataryo/copy-python-path"><b>Copy Python Path</b></a></td>
-      <td><img alt="Python" src="https://img.shields.io/badge/-3776AB?style=flat-square&logo=Python&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/copy-python-path?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/copy-python-path?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/copy-python-path?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-	  <tr>
-      <td><a href="https://github.com/kawamataryo/alfred-imagemin"><b>Alfred Imagemin</b></a></td>
-      <td><img alt="JavaScript" src="https://img.shields.io/badge/-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/alfred-imagemin?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/alfred-imagemin?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/alfred-imagemin?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/kawamataryo/tell-me-bot"><b>Tell me bot</b></a></td>
-      <td><img alt="TypeScript" src="https://img.shields.io/badge/-007ACC?style=flat-square&logo=typescript&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/tell-me-bot?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/tell-me-bot?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/tell-me-bot?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-	  <tr>
-      <td><a href="https://github.com/kawamataryo/copy-git-link"><b>copy-git-link</b></a></td>
-      <td><img alt="Kotlin" src="https://img.shields.io/badge/-0095D5?style=flat-square&logo=Kotlin&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/copy-git-link?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/copy-git-link?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/copy-git-link?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-	  <tr>
-      <td><a href="https://github.com/kawamataryo/schema2type"><b>Schema2type</b></a></td>
-      <td><img alt="Ruby" src="https://img.shields.io/badge/-CC342D?style=flat-square&logo=Ruby&logoColor=white" /></td>
-      <td><img alt="Stars" src="https://img.shields.io/github/stars/kawamataryo/schema2type?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Forks" src="https://img.shields.io/github/forks/kawamataryo/schema2type?style=flat-square&labelColor=343b41"/></td>
-      <td><img alt="Issues" src="https://img.shields.io/github/issues/kawamataryo/schema2type?style=flat-square&labelColor=343b41"/></td>
-    </tr>
-  </tbody>
-</table>
 
-#### その他
-- **type-challenges のメンバー（日本語ローカライズを担当）**
-    - [type-challenges](https://github.com/type-challenges/type-challenges)
-- **OSS への PR 作成**
-    - Raycast 拡張機能の開発
-      - [TinyPNG](https://www.raycast.com/kawamataryo/tinypng)
-      - [esa Search](https://www.raycast.com/kawamataryo/esa-search)
-    - Hasura Console の TypeScript 化・Issue の対応
-    - Gatsby.js の TypeScript 化・ドキュメント翻訳
-    - Vue3 のドキュメント翻訳
 
-### 副業
 
-- **鍼灸院専門の Web デザイン事業**
-    - 担当：営業・企画・デザイン・実装
-    - 使用技術：PHP, JavaScript, WordPress, Nuxt.js, GraphCMS
-    - 妻の仕事（鍼灸師）のホームページを作成したことでスタート。口コミ、web サイト経由で受注。契約交渉から実装・保守管理まですべてを行う
-- **ソフトウェア受託開発**
-    - 担当：実装
-    - 使用技術：JavaScript, TypeScript, Vue.js, React, Firebase
-    - 元同僚が起業した会社の受託開発業務のサポート。フロントエンドの実装を主に行う
+## 販促システム(2021-07~ 2ヶ月)
 
-### 技術記事投稿
+- プロジェクトカテゴリ: (WEBサービス, 受託開発)
+- 担当工程: (設計, コーディング, テスト, 運用/保守)
+- 経験した職種・役割: (バックエンド, インフラ) 
+- 使っていた技術: (PHP, SMS, OCR, Apache, ロードバランサ, MySQL )
 
-- **Zenn**
-    - サービススタートから投稿を開始。2022/10 現在 88 記事、 5,500LIKE
-    - [https://zenn.dev/ryo_kawamata](https://zenn.dev/ryo_kawamata)
-- **Qiita**
-    - 消防士時代から投稿を続け 2022/10 現在、143 記事、 17,551LGTM
-    - [https://qiita.com/ryo2132](https://qiita.com/ryo2132)
-- **note**
-    - 主に月報を記載。2020/04 現在 , 23 記事、 1,068 いいね
-    - [https://note.com/ryo_kawamata](https://note.com/ryo_kawamata)
+抽選を行いキャッシュバックを約束することで、購買意欲を高めることを目的とするシステムです。
 
-### 勉強会での登壇
+#### チームの構成と立ち位置
+- CSSとHTMLの担当 （外部）
+- CSS以外の担当（自分）
 
-- **Frontend LT 回（2022/06/15）**
-  - [suppress-ts-errors を使って TypeScriptの型チェックを漸進的に強化する](https://speakerdeck.com/kawamataryo/introducing-suppress-ts-errors)
-- **iCARE Dev Meetup (2022/04/20）**
-  - [OSS活動ことはじめ 〜OSS活動への壁と乗り越え方〜](https://speakerdeck.com/kawamataryo/begin-oss-activities)
-- **ジャムジャム Jamstack!!（2021/09/30）**
-  - [esa + VuePress で Jamstack なドキュメントサイトを作る](https://speakerdeck.com/kawamataryo/build-jamstack-site-with-vuepress-and-esa)
-- **iCARE Dev Meetup（2021/03/17）**
-  - [Vue.js 状態管理の選択肢 - その Vuex 本当に必要ですか -](https://speakerdeck.com/kawamataryo/vue-dot-js-state-management-options)
-- **Remote.vue（2020/07）**
-  - [Ref vs Reactive Vue3 Composition API のリアクティブ関数の探究](https://speakerdeck.com/kawamataryo/ref-vs-reactive-vue-composition-api-deep-in)
-- **もくテク（2019/12）**
-  - [入門 Hasura](https://speakerdeck.com/kawamataryo/ru-men-hasura)
-- **もくテク（2019/10）**
-  - [ここまで出来るよ Firestore セキュリティルール](https://speakerdeck.com/kawamataryo/kokomadechu-lai-ruyo-firestore-sekiyuriteiruru)
-- **他登壇資料**
-  - [https://speakerdeck.com/kawamataryo](https://speakerdeck.com/kawamataryo)
+#### 開発内容・課題
 
-### 勉強会の開催
+1. 外部フロントエンジニアとの連携
+自社のフロントエンドエンジニアと異なる書き方や仕様に戸惑いましたが、いい経験になりました。
 
-- **茨城県水戸市にて勉強会を企画・運営**
-    - 水戸エンジニア勉強会（開催回数 37 回、 メンバー 86 人）
-    - [https://mito-web-engineer.connpass.com/](https://mito-web-engineer.connpass.com/)
-- **社内・社外勉強会の企画・運営**
-    - もくテク powerd by Misoca
-    - フロントエンド輪読回（Vue Composition API ドキュメント , JavaScript Promise の本輪読回、 Jest 公式ドキュメント、 TypeScript 公式ドキュメント）
-    - Go ではじめるインタプリタ輪読回
+2. 不正抽選の防止
+不正抽選を防ぐための認証および景品の送信のためにSMSを利用しました。 
+選定から行い、料金仕様とAPIの豊富さからTwilioを選びました。
 
-### その他
+3. 購入したかどうかを確認する作業の負担
+LINEのOCRを導入することで、少しでもおかしい箇所を目視するだけで済む作業に簡略化しました
 
-- **Podcast**
-  - [しがないラジオ sp.91【ゲスト: KawamataRyo】楽しい元消防士がエンジニア転職を決意した理由、そして挫折と復活](https://shiganai.org/ep/sp91-KawamataRyo)
-- **YouTube**
-  - [消防士からエンジニアへ（ゲスト：川俣さん） #エンジニアと人生 Vol.28](https://www.youtube.com/watch?v=bP8hTmGixuI&t=1587s)
+4. サーバーへの負荷
+全国規模で一斉に応募されることが想定されるため、ロードバランサを使い負荷を分散しました。
 
 ---
 
-## 意欲・興味
-- 少人数チームで小さく早くリリースし、フィードバックを受けながら改善のサイクルを回していくアジャイルな開発スタイルを好みます
-- フロントエンドだけではなくバックエンド・インフラなど新しい分野・技術への興味関心が強く、学習しながらアウトプットをすることが得意です
-- ペアプロ・モブプロを積極的に取り入れ、チームで暗黙知の共有や、技術の継承を行っていきたいと思っています
-- 開発に携わったサービスが、身近な人の生活をより良くしていく過程を肌で感じられる時、時間を忘れてそれに没頭します
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 学内システム(2021-03~ 4ヶ月)
+
+- プロジェクトカテゴリ: (WEBサービス, 業務システム, 受託開発)
+- 担当工程: (設計, コーディング, テスト, 運用/保守)
+- 経験した職種・役割: (バックエンド, インフラ) 
+- 使っていた技術: (PHP, LDAPS, Apache, MySQL )
+
+
+教職員と学生(約10,000人)へページを共有するシステムです。
+
+#### チームの構成と立ち位置
+
+- CSSとHTMLの担当 x2名
+- CSS以外の担当 x1名 （自分）
+
+#### 開発内容・課題
+
+1. 権限
+なにより権限が重視されるため、いつも以上に緊張感を持って実装しました。
+ - IP制限
+ - 操作ログ
+ - 部門ごとの閲覧権限
+ - ファイルごとのアクセス権限
+ - 教職員が登録したページの承認処理等
+ - 承認前後のページアーカイブ
+
+2. 複数システムにわたるアカウント情報を一元管理する
+アカウント管理をしているLDAPサーバーと連携しました。
+LDAPの挙動を把握するため、別途LDAPS環境を構築しました。
 
 ---
 
-## 希望条件
-- 地方在住なのでフルリモートワークでの勤務を希望します（月数回の出社等は可）
-- ユーザーファーストなプロダクトを作っていく過程が好きです。言われたとおりにただ作るのではなく、機能要件に対しても一緒に考えていけるチームだと良いです
-- 新しい挑戦（技術的なもの・制度的なもの）に積極的に取り組める環境が好きです
+
+
+
+## 自社プロダクト-見積システム(2020-06~ 3ヶ月)
+
+- プロジェクトカテゴリ: (WEBサービス, 業務システム, 自社プロダクト)
+- 担当工程: (設計, コーディング, テスト, 運用/保守)
+- 経験した職種・役割: (バックエンド, インフラ) 
+- 使っていた技術: (PHP, Backlog, Apache, MySQL)
+
+業務の効率化、見積案件の整理、それらに紐づく実動工数の可視化を図るシステムです。
+入社して間もない頃に開発したシステムですが、多くのスタッフに利用されておりいいものを作れたと実感しています。
+
+#### チームの構成と立ち位置
+
+- デザイナー x1名
+- CSSとHTMLの担当 x2名
+- CSS以外の担当 x1名 （自分）
+
+#### 開発内容・課題
+
+1. 見積書・請求書の自動生成
+登録した担当者、見積もり内容と金額から、担当者の判子が押された状態の見積書や請求書を生成します。
+
+2. 工数管理
+タスク管理に利用していたBacklogと連携させることで、担当者ごとの進捗具合や案件ごとの実動工数を算出しました。
+
+3. サイト管理
+システム上でサイトを登録し、SSLの有効期限を監視します。
+
+---
