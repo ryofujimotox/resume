@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "kawamataryoの職務経歴書",
   "scripts": {
-    "lint": "textlint docs/README.md",
-    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
+    "lint": "textlint work_history/README.md",
+    "build:pdf": "md-to-pdf work_history/README.md --config-file ./pdf-configs/config.js"
   },
   "repository": {
     "type": "git",
