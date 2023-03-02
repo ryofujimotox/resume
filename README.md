@@ -1,12 +1,12 @@
 # fujimotoryo's resume
 
-## ページ一覧
+## 📗ページ一覧
 
 - [トップページ](https://ryofujimotox.github.io/resume/)  
 - [職務経歴書](https://ryofujimotox.github.io/resume/work_history)  
 
 
-## 基本情報
+## 🤗基本情報
 
 |key|value|
 |---|---|
@@ -16,15 +16,13 @@
 
 ---
 
-## ポートフォリオ
+## 💌ポートフォリオ
 
 http://ryo1999.com/
 
 ---
 
-## 保有スキル
-
-## 担当工程
+## 🗂️担当工程
 
 - 要件定義
 - 設計 
@@ -32,7 +30,7 @@ http://ryo1999.com/
 - テスト、 運用/保守
 
 
-### 言語等
+## 📝保有スキル
 
 - インフラ（Apache, AWS)
 - フロントエンド（JS/React)
