@@ -1,57 +1,60 @@
-# kawamataryo's resume
+# fujimotoryo's resume
 
-[![textlint](https://img.shields.io/github/workflow/status/kawamataryo/resume/lint%20text?label=textlint&logo=github&color=yellow)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22lint+text%22)
-[![build pdf](https://img.shields.io/github/workflow/status/kawamataryo/resume/build-pdf?label=build%20pdf&logo=github)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22build+pdf%22)
-[![create issue](https://img.shields.io/github/workflow/status/kawamataryo/resume/create%20issue?label=create%20issue&logo=github&color=orange)](https://github.com/kawamataryo/resume/actions?query=workflow%3A%22create+issue%22)
-[![release date](https://img.shields.io/github/release-date/kawamataryo/resume?color=blue&logo=github)](https://github.com/kawamataryo/resume/releases)
+## Sitemap
 
-[ English | [日本語](https://github.com/kawamataryo/resume/blob/master/README.ja.md) ]
-
-## Data
-
-- [GitHub Pages](https://kawamataryo.github.io/resume/)  
-- [PDF](https://github.com/kawamataryo/resume/releases)  
-- [File](https://github.com/kawamataryo/resume/blob/master/docs/README.md)  
-## Features
-
-### 💅 Lint text
-
-Automatic proofreading with [textlint](https://github.com/textlint/textlint).
-
-```
-$ yarn lint --fix
-```
-It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
-proofreading rules are set with `.textlintrc`.
+- [トップページ](https://ryofujimotox.github.io/resume/)  
+- [職務経歴書](https://ryofujimotox.github.io/resume/work_history)  
 
 
+## 基本情報
 
-### 📝 Convert Markdown to PDF
+|key|value|
+|---|---|
+|氏名|藤本 凌（Fujimoto Ryo）|
+|生年月日|1999/03/29|
+|居住地|栃木県|
 
-You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
+---
+
+## ポートフォリオ
+
+http://ryo1999.com/
+
+---
+
+## 保有スキル
+
+- インフラ（Apache, AWS)
+- フロントエンド（JS/React)
+- バックエンド（PHP/Python)
+- アプリ開発（ReactNative/Swift)
+
+### 言語
+
+<p>
+<img alt="PHP" src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat">
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
 
 
-```
-$ yarn build:pdf
-```
 
-The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.  
-
-### 🛠 Create release
-
-When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
-
-```
-$ git commit -m "add job"
-$ git tag v1.0
-$ git push origin --tags
-```
-
-### 📆 Remind update
-
-Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
-
-To change the duration or stop the job, edit `.github/workflows/create-issue.yml`.  
-To change the issue contents, edit `.github/ISSUE_TEMPLATE.md`.
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
 
 
+  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+</p>
+
+### フレームワーク・その他
+
+<p>
+<img alt="Apache" src="https://img.shields.io/badge/-Apache-D22128.svg?logo=apache&style=flat">
+<img alt="AWS" src="https://img.shields.io/badge/-Amazon%20AWS-232F3E.svg?logo=amazon-aws&style=flat">
+
+<img alt="CakePHP" src="https://img.shields.io/badge/-CakePHP-D3DC43.svg?logo=cakephp&style=flat">
+
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+
+  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+---
