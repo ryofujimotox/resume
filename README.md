@@ -1,6 +1,6 @@
 # fujimotoryo's resume
 
-## Sitemap
+## ページ一覧
 
 - [トップページ](https://ryofujimotox.github.io/resume/)  
 - [職務経歴書](https://ryofujimotox.github.io/resume/work_history)  
@@ -24,12 +24,20 @@ http://ryo1999.com/
 
 ## 保有スキル
 
+## 担当工程
+
+- 要件定義
+- 設計 
+- コーディング
+- テスト、 運用/保守
+
+
+### 言語等
+
 - インフラ（Apache, AWS)
 - フロントエンド（JS/React)
 - バックエンド（PHP/Python)
 - アプリ開発（ReactNative/Swift)
-
-### 言語
 
 <p>
 <img alt="PHP" src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat">
@@ -43,8 +51,6 @@ http://ryo1999.com/
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
   <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
 </p>
-
-### フレームワーク・その他
 
 <p>
 <img alt="Apache" src="https://img.shields.io/badge/-Apache-D22128.svg?logo=apache&style=flat">
