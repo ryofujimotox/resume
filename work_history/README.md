@@ -1,11 +1,21 @@
 # 職務経歴書
 
-|<center>種別</center>|<center>内容</center>|
-|:---:|:---|
-|担当工程|要件定義, 設計, コーディング, テスト, 運用/保守|
-|経験した役割|フロントエンド, バックエンド, インフラ, アプリ開発(Android)|
-|使用技術|PHP/CakePHP, ReactNative, Python, Apache, MySQL|
-|チーム情報|実装x1名(自分), 端末選定x1名, 現職社長x1名|
+担当工程としては、基本的に上流工程から下流工程までを一貫して担当しています。<br>
+(要件定義, 設計, コーディング, テスト, 運用/保守)
+
+**主なプロジェクト内容**
+
+2ヶ月以上かかった開発プロジェクトについての概要をまとめています。<br>
+各プロジェクトの詳細については、次のページ以降をご覧ください。
+
+|<center>プロジェクト名</center>|<center>期間</center>|<center>使用技術</center>|
+|:---:|:---|:---|
+|サイネージアプリ|2022年12月~ 2ヶ月|CakePHP, ReactNative, Python, Apache
+|教育支援システム|2022年06月~ 4ヶ月|CakePHP, React, 自然言語処理, AWS
+|内覧受付システム|2021年10月~ 2ヶ月|WordPress, Apache
+|販促システム|2021年07月~ 2ヶ月|CakePHP, SMS, OCR, ロードバランサ, Apache
+|学内システム|2021年03月~ 4ヶ月|CakePHP, LDAPS, Apache
+|見積システム|2020年06月~ 3ヶ月|CakePHP, Backlog, Apache
 
 ---
 <div style="page-break-before:always"></div>
