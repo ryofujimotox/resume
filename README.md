@@ -102,9 +102,3 @@
 - 新しい挑戦（技術的、制度的）に積極的に取り組める環境が好きです
 
 ---
-
-
-## ❗️ 参考
-
-https://github.com/kawamataryo/resume
-
