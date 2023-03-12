@@ -3,29 +3,17 @@
 ### 担当工程
 
 基本的に上流工程から下流工程までを一貫して担当しています。<br>
-自分が対応する箇所を<span style="color: red; ">赤字</span>にしました。
 
-1. 営業が提案・用件整理<br>
-    バックエンドが間に入り用件のすり合わせ(<span style="color: red; ">用件定義</span>)
-2. インフラ担当が<span style="color: red; ">サーバー構築</span><br>
-    バックエンドが<span style="color: red; ">API・管理画面の開発</span>
-3. デザイナーがサイトマップ制作
-4. フロントがHTML制作
-5. バックエンドが<span style="color: red; ">HTML組み込み</span><br>
-    <span style="color: red; ">JS処理</span>を組み込む
-6. <span style="color: red; ">テスト</span>&クライアントテスト
-7. クライアントに確認し<span style="color: red; ">修正作業</span>
-8. バックエンドが<span style="color: red; ">リリース</span>
-
-
-### 使用言語等
-
-|<center>種別</center>|<center>技術</center>|<center>詳細</center>|
+|<center>担当</center>|<center>技術</center>|<center>詳細</center>|
 |:---|:---|:---|
-|インフラ|Apache, AWS|基本的に某会社のVPSを利用しOSから構築<br>Bashにより構築を自動化することで構築時間を30分程度に抑えました<br>【その他】WAF, postfix, fail2ban, zabbix
-|バックエンド|PHP/CakePHP<br>Python |幅広く担当しております<br>【その他】SMS, OCR, 自然言語解析, ライブラリ開発
-|フロントエンド|React, ReactNative| API開発とフロント連携を一貫して担当<br>APIを分散させる意義や、キャッシュの有効性について理解が深まりました。
-
+|用件定義| |営業さんの隣で手助けをします<br>お客様と直接対話する経験は少ないです
+|詳細設計|スライド<br>スプレッドシート |簡単な図形を用意して確認を進めます
+|DB設計|mysql workbench |開発・拡張性を意識してER図を作成します<br>DBチューニングの経験は少ないです(最大: 70万レコード)<br>課題はパーティショニング、レプリケーションの知識量を増やすことです
+|サーバ構築|Apache, Bash |基本的にVPSでOSから構築します<br>半日~夕方までかけていた作業を、Bashを用いて30分以下に短縮しました<br>課題はAWSへの知識を深めることです <br>【その他】AWS, WAF, postfix, fail2ban, Zabbix
+|WEB開発||API開発とフロント連携を一貫して担当します(CSS以外)
+|バックエンド|PHP/CakePHP<br>Python |- ユニットテストを考慮した関数定義<br>- キャッシュを利用した速度向上<br>- フロントエンドでの扱いやすさ・クライアント負担を考慮したAPI設計<br>課題はOSSの開発量を増やすことと、利用するOSSへ貢献することです
+|フロントエンド|React, Next.js|使いやすさ・速度を重視します<br>課題は結合テスト・SSGの数を増やすことです
+|アプリ開発|ReactNative|安価な端末でもスムーズに動作するようメモリを意識します
 
 ### 主なプロジェクト内容
 
