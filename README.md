@@ -25,8 +25,7 @@
 
 高校卒業後、旅館等で働いておりました。(お土産販売・お部屋案内)<br>
 その後SIerのバックエンド部署に3年間所属し、上流工程から下流工程までを一貫して担当してきました。<br>
-業務でのメイン言語はPHP(CakePHP)とReactのフルスタックです。<br>
-詳細については、[職務経歴書](https://ryofujimotox.github.io/resume/work_history)をご確認ください。
+業務でのメイン言語はPHP(CakePHP)とReactです。([詳細](https://ryofujimotox.github.io/resume/work_history))<br>
 
 ### 直近の年収
 
