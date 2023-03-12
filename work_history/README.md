@@ -6,11 +6,11 @@
 自分が対応する箇所を<span style="color: red; ">赤字</span>にしました。
 
 1. 営業が提案・用件整理<br>
-    バックエンドが間に入り用件のすり合わせ(<span style="color: red; ">用件定義</span>)
+    バックエンドが横に座り用件のすり合わせ(<span style="color: red; ">用件定義</span>)
 2. インフラ担当が<span style="color: red; ">サーバー構築</span><br>
     バックエンドが<span style="color: red; ">API・管理画面の開発</span>
 3. デザイナーがサイトマップ制作
-4. フロントがHTML制作
+4. フロントがHTML制作(CSS)
 5. バックエンドが<span style="color: red; ">HTML組み込み</span><br>
     <span style="color: red; ">JS処理</span>を組み込む
 6. <span style="color: red; ">テスト</span>&クライアントテスト
@@ -22,7 +22,8 @@
 
 |<center>種別</center>|<center>技術</center>|<center>詳細</center>|
 |:---|:---|:---|
-|インフラ|Apache, AWS|基本的に某会社のVPSを利用しOSから構築<br>Bashにより構築を自動化することで構築時間を30分程度に抑えました<br>【その他】WAF, postfix, fail2ban, zabbix
+|インフラ|Apache, AWS|基本的にVPSでOSから構築します<br>構築に半日~夕方までかけていた所、Bashを用いて30分以下に短縮しました<br>【その他】WAF, postfix, fail2ban, zabbix
+|DB構築|
 |バックエンド|PHP/CakePHP<br>Python |幅広く担当しております<br>【その他】SMS, OCR, 自然言語解析, ライブラリ開発
 |フロントエンド|React, ReactNative| API開発とフロント連携を一貫して担当<br>APIを分散させる意義や、キャッシュの有効性について理解が深まりました。
 
