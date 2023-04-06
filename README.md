@@ -24,6 +24,42 @@
 その後SIerのバックエンド部署に3年間所属し、上流工程から下流工程までを一貫して担当してきました。<br>
 業務でのメイン言語はPHP(CakePHP)とReactです。([詳細](https://ryofujimotox.github.io/resume/work_history))<br>
 
+
+
+
+
+---
+<div style="page-break-before:always"></div>
+
+
+
+
+## 技術レベル
+
+<img src="screen.svg" width="100%" alt="PHP" />
+
+
+|技術|実装例|目標|
+|---|---|---|
+|PHP/CakePHP | SMS, OCR, 言語解析技術の導入<br>社用エディタの作成(ブロック組立式のリッチエディタ)<br>共通処理のライブラリ化/バージョン管理 | ・OSS/チームでの開発<br>・CI/CD(GithubAction)|
+| WordPress | 社用テーマの作成<br>GUI最適化(ブロックエディタの拡張/メニュー追加)<br>コード上でのCF・CPT管理ライブラリ作成<br>(ACF/SCF間で取得登録処理が異なるため、プラグインUIを利用しつつも柔軟にコード管理できるライブラリ) |
+| React/ReactNative | SPAの導入<br>非同期データを取得するプロセスの最適化(無限スクロール)<br>カスタムフックの活用(USB接続の検知/ページ離脱警告) | ・NextJSへの移行<br>・Vercel環境<br>・JWT認証 |
+| Bash | サーバー構築の自動化/スクリプト化<br>(ユーザー作成, バーチャルホストSSL, WAF, zabbix ~ 再起動) |
+| Python | ライブラリ作成/バージョン管理<br>GPIO制御<br>動画編集ツール作成 | 
+
+
+
+
+
+
+---
+<div style="page-break-before:always"></div>
+
+
+
+
+
+
 ### 直近の年収
 
 約4,100,000円 (今年の給料up分 + ボーナス2回見込み)
@@ -41,26 +77,97 @@
 - フロントエンド(React, ReactNative)
 
 
-
-### そのほか利用可能な言語
+<h3 align="left" id="macropower-tech">そのほか利用可能な言語</h3>
 
 - Swift (初めて学んだ言語で、3年ほど勉強しました)
 - Next.js
 
-<p>
-<img alt="PHP" src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat">
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+<table>
+  <tr>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="https://img.icons8.com/officel/1000/null/php-logo.png" width="48" height="48" alt="PHP" />
+      </a>
+      <br>PHP(実務3年)
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/1000/null/external-cakephp-an-open-source-web-rapid-development-framework-logo-color-tal-revivo.png" width="48" height="48" alt="CakePHP" />
+      </a>
+      <br>CakePHP(実務3年)
+    </td>
+    <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="./img/python-original.svg" width="48" height="48" alt="Python" />
+      </a>
+      <br>Python(実務1回)
+    </td>
+    <td align="center"  width="96">
+      <a href="#macropower-tech">
+        <img src="./img/mysql-original.svg" width="48" height="48" alt="MySQL" />
+      </a>
+      <br>MySQL(実務3年)
+    </td>
+  </tr>
+  
+  <tr>
+    <td align="center" width="96">
+        <a href="#macropower-tech">
+          <img src="./img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
+        </a>
+        <br>TypeScript<br>(実務1年)
+      </td>
+      <td align="center" width="96">
+        <a href="#macropower-tech" >
+          <img src="./img/react-original.svg" width="48" height="48" alt="React" />
+        </a>
+        <br>React(実務1年)
+      </td>
+  </tr>
+
+  <tr>
+      <td align="center" width="96">
+        <a href="#macropower-tech" >
+          <img src="./img/react-original.svg" width="48" height="48" alt="ReactNative" />
+        </a>
+        <br>ReactNative(実務1回)
+      </td>
+      <td align="center" width="96"> 
+        <a href="#macropower-tech" >
+          <img src="https://img.icons8.com/color/1000/null/swift.png" width="48" height="48" alt="Swift" />
+        </a>
+        <br>Swift(趣味5年)
+      </td>
+  </tr>
+
+  <tr>
+      <td align="center" width="96"> 
+        <a href="#macropower-tech" >
+          <img src="./img/docker-original.svg" width="48" height="48" alt="Docker" />
+        </a>
+        <br>Docker(実務3年)
+      </td>
+      <td align="center" width="96"> 
+        <a href="#macropower-tech" >
+          <img src="https://img.icons8.com/color/1000/null/bash.png" width="48" height="48" alt="Bash" />
+        </a>
+        <br>Bash(実務3年)
+      </td>
+  </tr>
+
+  <tr>
+     <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="./img/go-flat.svg" width="48" height="48" alt="Golang" />
+      </a>
+      <br>Go
+    </td>
+
+  </tr>
+</table>
 
 
-  <img alt="Apache" src="https://img.shields.io/badge/-Apache-D22128.svg?logo=apache&style=flat">
-<img alt="AWS" src="https://img.shields.io/badge/-Amazon%20AWS-232F3E.svg?logo=amazon-aws&style=flat">
-<img alt="CakePHP" src="https://img.shields.io/badge/-CakePHP-D3DC43.svg?logo=cakephp&style=flat">
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-</p>
+
 
 ---
 <div style="page-break-before:always"></div>
