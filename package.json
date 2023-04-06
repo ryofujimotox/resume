@@ -5,7 +5,8 @@
   "scripts": {
     "lint": "textlint work_history/README.md",
     "build:pdf": "md-to-pdf work_history/README.md --config-file ./pdf-configs/config.js",
-    "build:resume": "md-to-pdf README.stylish.md --config-file ./pdf-configs/config.js"
+    "build:resume": "md-to-pdf README.stylish.md --config-file ./pdf-configs/config.js",
+    "build:resume2": "md-to-pdf README.md --config-file ./pdf-configs/config.js"
   },
   "repository": {
     "type": "git",
