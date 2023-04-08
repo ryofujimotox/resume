@@ -28,39 +28,25 @@
 
 
 
-## 技術レベル
 
-<img src="screen.svg" width="100%" alt="PHP" />
 
+
+
+
+## 技術レベル(言語)
+
+<img src="graph_lang.svg" width="100%" alt="graph_lang" />
+
+### 詳細
 
 |技術|実装例|目標|
 |---|---|---|
-|PHP/CakePHP | SMS, OCR, 言語解析技術の導入<br>社用エディタの作成(ブロック組立式のリッチエディタ)<br>共通処理のライブラリ化/バージョン管理 | ・OSS/チームでの開発<br>・CI/CD(GithubAction)|
-| WordPress | 社用テーマの作成<br>GUI最適化(ブロックエディタの拡張/メニュー追加)<br>コード上でのCF・CPT管理ライブラリ作成<br>(ACF/SCF間で取得登録処理が異なるため、プラグインUIを利用しつつも柔軟にコード管理できるライブラリ) |
-| React/ReactNative | SPAの導入<br>非同期データを取得するプロセスの最適化(無限スクロール)<br>カスタムフックの活用(USB接続の検知/ページ離脱警告) | ・NextJSへの移行<br>・Vercel環境<br>・JWT認証 |
-| Bash | サーバー構築の自動化/スクリプト化<br>(ユーザー作成, バーチャルホストSSL, WAF, zabbix ~ 再起動) |
-| Python | ライブラリ作成/バージョン管理<br>GPIO制御<br>動画編集ツール作成 | 
-
-
-
-
-
-
----
-<div style="page-break-before:always"></div>
-
-
-
-
-
-
-### 直近の年収
-
-約4,100,000円 (今年の給料up分 + ボーナス2回見込み)
-
----
-
-
+|PHP/CakePHP | ・SMS, OCR, 言語解析技術の導入<br>・社用エディタの作成(ブロック組立式のリッチエディタ)<br>・共通処理のライブラリ化/バージョン管理 | ・チームでの開発<br>・OSS貢献<br>・SSO認証<br>・CI/CD(GithubAction)|
+| WordPress | ・社用テーマの作成<br>・GUI最適化(ブロックエディタの拡張/メニュー追加)<br>・コード上でのCF・CPT管理ライブラリ作成<br>(別プラグイン間でも一元的にコード管理できるライブラリ) |
+| React<br>ReactNative | ・SPAの導入<br>・非同期データを取得するプロセスの最適化(無限スクロール)<br>・カスタムフックの活用(USB接続の検知/ページ離脱警告) | ・NextJSへの移行<br>・Vercel環境<br>・JWT認証 |
+| Bash | ・サーバー構築の自動化/スクリプト化<br>(ユーザー作成, バーチャルホストSSL, WAF, zabbix ~ 再起動) |
+| Python | ・ライブラリ作成/バージョン管理<br>・GPIO制御<br>・動画編集ツール作成 | 
+| Golang | | ・gRPC 
 
 
 
@@ -72,19 +58,31 @@
 
 
 
-## 🗂️ 担当工程
+## 技術レベル(その他)
 
-上流工程から下流工程までを一貫して担当しています。(SIer)
+<img src="graph_other.svg" width="100%" alt="graph_other" />
 
-- 要件定義 ~ 詳細設計
-- DB設計
-- 実装 (CSS以外全般)
-- テスト
-- 運用/保守
+### 詳細
 
+|技術|実装例|目標|
+|---|---|---|
+| Git | ・1部署2人までのプルリクエスト連携<br>・ライブラリに沿ったバージョン管理<br>・GitFlowの個人利用 | ・チーム連携<br>・CI/CD(GithubAction)
+| MySQL | ・最大で25テーブルかつ70万レコードの設計・管理<br>・基礎インデックスの利用(ユニーク, 外部キー)<br>・Viewを利用した視認性の向上 | ・トリガー<br>・パーティショニング/レプリケーション
+| NoSQL | | ・DynamoDB(AWSかつ記事が多いため)<br>・MongoDB(無料かつ記事が多いため)<br>・Cassandra(CQLとSQLが似ているため)
+| Linux | ・CentOS7から別OSへの移行/マニュアル更新<br>・サーバー構築の自動化/スクリプト化<br>・LDAPS環境の構築<br>・ロードバランサ構築<br>・スケールアップ/ディスク拡張<br>・Gitサーバーの構築 | ・AWSへの移行
+| AWS(EC2) | ・エラー調査・回避<br>(インバウンドルール/パッケージ)
+
+ 
 ---
+<div style="page-break-before:always"></div>
 
 
+
+
+
+## 📗 サイト一覧
+
+- ポートフォリオ(https://ryo1999.com/)  
 
 
 
