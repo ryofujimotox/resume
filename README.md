@@ -1,28 +1,22 @@
-# fujimotoryo's resume
-
-## 📗 サイト一覧
-
-- [私について](https://ryofujimotox.github.io/resume/)  
-- [職務経歴書](https://ryofujimotox.github.io/resume/work_history)  
-- [ポートフォリオ](https://ryo1999.com/)  
-
----
+# 私について
 
 ## 🙇‍♂️ 基本情報
 
 |key|value|
 |---|---|
-|氏名|藤本 凌（Fujimoto Ryo）|
+|氏名|藤本 凌 （Fujimoto Ryo）|
 |生年月日|1999/03/29 (24歳)|
 |居住地|栃木県|
+|現年収|約4,100,000円
 
 ---
 
-## 💰 業務経験
+## 🧑‍💻 業務経験
 
 高校卒業後、旅館等の接客業に携わっておりました。(お土産販売・お部屋案内)<br>
-その後SIerのバックエンド部署に3年間所属し、上流工程から下流工程までを一貫して担当してきました。<br>
-業務でのメイン言語はPHP(CakePHP)とReactです。([詳細](https://ryofujimotox.github.io/resume/work_history))<br>
+その後、現職であるWEB制作会社に入社しました。(バックエンド部署に所属し3月で3年目)<br>
+詳細設計からDB設計、実装から運用/保守まで幅広く担当してきました。<br>
+業務で利用しているメイン言語はPHP/CakePHPとReactです。([職務経歴書](https://ryofujimotox.github.io/resume/work_history))<br>
 
 
 
@@ -66,105 +60,6 @@
 
 ---
 
-## 📝 スキル
-
-バックエンドエンジニアとして3年目です。
-
-### 業務経験のあるスキル
-
-- インフラ(Apache, VPS, AWS)
-- バックエンド(PHP/CakePHP, Python)
-- フロントエンド(React, ReactNative)
-
-
-<h3 align="left" id="macropower-tech">そのほか利用可能な言語</h3>
-
-- Swift (初めて学んだ言語で、3年ほど勉強しました)
-- Next.js
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="https://img.icons8.com/officel/1000/null/php-logo.png" width="48" height="48" alt="PHP" />
-      </a>
-      <br>PHP(実務3年)
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/1000/null/external-cakephp-an-open-source-web-rapid-development-framework-logo-color-tal-revivo.png" width="48" height="48" alt="CakePHP" />
-      </a>
-      <br>CakePHP(実務3年)
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/python-original.svg" width="48" height="48" alt="Python" />
-      </a>
-      <br>Python(実務1回)
-    </td>
-    <td align="center"  width="96">
-      <a href="#macropower-tech">
-        <img src="./img/mysql-original.svg" width="48" height="48" alt="MySQL" />
-      </a>
-      <br>MySQL(実務3年)
-    </td>
-  </tr>
-  
-  <tr>
-    <td align="center" width="96">
-        <a href="#macropower-tech">
-          <img src="./img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
-        </a>
-        <br>TypeScript<br>(実務1年)
-      </td>
-      <td align="center" width="96">
-        <a href="#macropower-tech" >
-          <img src="./img/react-original.svg" width="48" height="48" alt="React" />
-        </a>
-        <br>React(実務1年)
-      </td>
-  </tr>
-
-  <tr>
-      <td align="center" width="96">
-        <a href="#macropower-tech" >
-          <img src="./img/react-original.svg" width="48" height="48" alt="ReactNative" />
-        </a>
-        <br>ReactNative(実務1回)
-      </td>
-      <td align="center" width="96"> 
-        <a href="#macropower-tech" >
-          <img src="https://img.icons8.com/color/1000/null/swift.png" width="48" height="48" alt="Swift" />
-        </a>
-        <br>Swift(趣味5年)
-      </td>
-  </tr>
-
-  <tr>
-      <td align="center" width="96"> 
-        <a href="#macropower-tech" >
-          <img src="./img/docker-original.svg" width="48" height="48" alt="Docker" />
-        </a>
-        <br>Docker(実務3年)
-      </td>
-      <td align="center" width="96"> 
-        <a href="#macropower-tech" >
-          <img src="https://img.icons8.com/color/1000/null/bash.png" width="48" height="48" alt="Bash" />
-        </a>
-        <br>Bash(実務3年)
-      </td>
-  </tr>
-
-  <tr>
-     <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="Golang" />
-      </a>
-      <br>Go
-    </td>
-
-  </tr>
-</table>
 
 
 
