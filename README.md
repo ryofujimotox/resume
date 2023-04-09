@@ -1,66 +1,82 @@
-# fujimotoryo's resume
+# 私について
 
-## 📗 サイト一覧
-
-- [私について](https://ryofujimotox.github.io/resume/)  
-- [職務経歴書](https://ryofujimotox.github.io/resume/work_history)  
-- [ポートフォリオ](https://ryo1999.com/)  
-
----
-
-## 🙇‍♂️ 基本情報
+## 基本情報
 
 |key|value|
 |---|---|
-|氏名|藤本 凌（Fujimoto Ryo）|
+|氏名|藤本 凌 （Fujimoto Ryo）|
 |生年月日|1999/03/29 (24歳)|
 |居住地|栃木県|
+|現年収|約4,100,000円
+
+ポートフォリオ(https://ryo1999.com/)
 
 ---
 
-## 💰 業務経験
+## 職務経歴
 
 高校卒業後、旅館等の接客業に携わっておりました。(お土産販売・お部屋案内)<br>
-その後SIerのバックエンド部署に3年間所属し、上流工程から下流工程までを一貫して担当してきました。<br>
-業務でのメイン言語はPHP(CakePHP)とReactです。([詳細](https://ryofujimotox.github.io/resume/work_history))<br>
+その後、現職であるWEB制作会社に入社しました。(バックエンド部署に所属し3月で3年目)<br>
+詳細設計からDB設計、実装から運用/保守まで幅広く担当してきました。<br>
+業務で利用しているメイン言語はPHP/CakePHPとReactです。<br>
 
-### 直近の年収
+職務経歴書(https://ryofujimotox.github.io/resume/work_history)
 
-約4,100,000円 (今年の給料up分 + ボーナス2回見込み)
 
 ---
 
-## 📝 スキル
+## 意欲・興味
 
-バックエンドエンジニアとして3年目です。
+- インフラ、バックエンド、フロントエンド全般に興味があります
+- インプット/アウトプットをよくします (社内Wiki, ポートフォリオ, OSS)
+- 作業の自動化・効率化をします (Bash, Python)
 
-### 業務経験のあるスキル
-
-- インフラ(Apache, VPS, AWS)
-- バックエンド(PHP/CakePHP, Python)
-- フロントエンド(React, ReactNative)
+---
 
 
+## 希望条件
 
-### そのほか利用可能な言語
-
-- Swift (初めて学んだ言語で、3年ほど勉強しました)
-- Next.js
-
-<p>
-<img alt="PHP" src="https://img.shields.io/badge/PHP-ccc.svg?logo=php&style=flat">
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+- 青森からフルリモートで働けることが一番の転職理由になります(月1回の出社等は可能)
+- お給料は450万円以上をいただきたいです
+- WEB(API,フロント)かアプリ開発のいずれか、または全部担当したいです
+- たくさんの知識/経験を身につけたいです
 
 
-  <img alt="Apache" src="https://img.shields.io/badge/-Apache-D22128.svg?logo=apache&style=flat">
-<img alt="AWS" src="https://img.shields.io/badge/-Amazon%20AWS-232F3E.svg?logo=amazon-aws&style=flat">
-<img alt="CakePHP" src="https://img.shields.io/badge/-CakePHP-D3DC43.svg?logo=cakephp&style=flat">
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-</p>
+
+
+---
+<div style="page-break-before:always"></div>
+
+
+
+
+
+## 業務経験
+
+
+<img src="graph_exp.svg" width="100%" alt="graph_exp" />
+
+### 案件規模
+
+|担当|内容|目標|
+|---|---|---|
+| 見積 | 最大400万円/3ヶ月 | 
+| チーム体制 | 基本的に3名体制(営業、フロント、バックエンド) | ・チーム開発
+| DB | 最大20テーブル/70万レコード | ・チューニング
+| サーバー | VPSロードバランサ
+
+
+### 担当工程
+
+|担当|内容|目標|
+|---|---|---|
+| 要件定義 | WEB会議に同席 | ・お客様と直接対話する経験を積みたい
+| 詳細設計 | 簡単な図形を用意して確認を進める |
+| DB設計 | 拡張性を意識してER図を作成 | ・DBチューニング
+| サーバ構築 | VPSを利用してOSから構築 | ・AWSへの移行
+|バックエンド | フロントエンドとの連携を意識した開発 | ・共通処理のライブラリ化<br>・OSS貢献
+|フロントエンド|使いやすさ・速度を重視した開発 | 結合テスト/SSGの量を増やす
+
 
 ---
 <div style="page-break-before:always"></div>
@@ -70,56 +86,50 @@
 
 
 
-## 🗂️ 担当工程
 
-上流工程から下流工程までを一貫して担当しています。(SIer)
 
-- 要件定義 ~ 詳細設計
-- DB設計
-- 実装 (CSS以外全般)
-- テスト
-- 運用/保守
+
+## 技術レベル(言語)
+
+<img src="graph_lang.svg" width="100%" alt="graph_lang" />
+
+### 詳細
+
+|技術|実装例|目標|
+|---|---|---|
+|PHP/CakePHP | ・SMS, OCR, 言語解析技術の導入<br>・社用エディタの作成(ブロック組立式のリッチエディタ)<br>・共通処理のライブラリ化/バージョン管理 | ・チームでの開発<br>・OSS貢献<br>・SSO認証<br>・CI/CD(GithubAction)|
+| WordPress | ・社用テーマの作成<br>・GUI最適化(ブロックエディタの拡張/メニュー追加)<br>・コード上でのCF・CPT管理ライブラリ作成<br>(別プラグイン間でも一元的にコード管理できるライブラリ) |
+| React<br>ReactNative | ・SPAの導入<br>・非同期データを取得するプロセスの最適化(無限スクロール)<br>・カスタムフックの活用(USB接続の検知/ページ離脱警告) | ・NextJSへの移行<br>・Vercel環境<br>・JWT認証 |
+| Bash | ・サーバー構築の自動化/スクリプト化<br>(ユーザー作成, バーチャルホストSSL, WAF, zabbix ~ 再起動) |
+| Python | ・ライブラリ作成/バージョン管理<br>・GPIO制御<br>・動画編集ツール作成 | 
+| Golang | | ・gRPC 
+
+
 
 ---
+<div style="page-break-before:always"></div>
 
 
 
 
 
 
-## 🧐 意欲・興味
+## 技術レベル(その他)
 
-- 作業の自動化・効率化が得意です(Bash, Python)
-- アウトプットをすることが得意です (社内Wiki, OSS)
-- バックエンド、フロントエンド、およびインフラ全般に興味を持っています
+<img src="graph_other.svg" width="100%" alt="graph_other" />
 
+### 詳細
+
+|技術|実装例|目標|
+|---|---|---|
+| Git | ・1部署2人までのプルリクエスト連携<br>・ライブラリに沿ったバージョン管理<br>・GitFlowの個人利用 | ・チーム連携<br>・CI/CD(GithubAction)
+| MySQL | ・最大で25テーブルかつ70万レコードの設計・管理<br>・基礎インデックスの利用(ユニーク, 外部キー)<br>・Viewを利用した視認性の向上 | ・トリガー<br>・パーティショニング/レプリケーション
+| NoSQL | | ・DynamoDB(AWSかつ記事が多いため)<br>・MongoDB(無料かつ記事が多いため)<br>・Cassandra(CQLとSQLが似ているため)
+| Linux | ・CentOS7から別OSへの移行/マニュアル更新<br>・サーバー構築の自動化/スクリプト化<br>・LDAPS環境の構築<br>・ロードバランサ構築<br>・スケールアップ/ディスク拡張<br>・Gitサーバーの構築 | ・AWSへの移行
+| AWS(EC2) | ・エラー調査・回避<br>(インバウンドルール/パッケージ)
+
+ 
 ---
-
-
-## ✍ 課題
-
-- バックエンドの課題は、OSSの開発量、OSSへ貢献すること
-- フロントエンドの課題は、結合テスト・SSGの数を増やすこと
-- DBの課題は、パーティショニング、レプリケーションの知識量を増やすこと
-- インフラの課題は、AWSへの知識量を増やすこと
-
----
-
-
-
-
-## ❗️ 希望条件
-
-- 青森からフルリモートで働けることが一番の転職理由になります(月1回の出社等は可能)
-- お給料は450万円以上か、成果次第で数年に越える見込みが欲しいです
-- WEB(API,フロント)かアプリ開発のいずれか、または全部担当したいです
-- どんどん新しい技術を身につけたいです
-- 新しい技術をシステムに導入していきたいです
-- そのために勤務時間内にも学び,反省の自由時間が欲しいです
-- (その結果を提出・システムに導入します)
-
----
-
 
 
 
