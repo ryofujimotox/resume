@@ -7,11 +7,11 @@
 
 |<center>担当</center>|<center>技術</center>|<center>内容</center>|<center>目標/課題</center>|
 |:---|:---|:---|:---|
-|要件定義| | WEB会議に開発担当として同席します | 口頭での説明力
+|要件定義| | WEB会議に開発担当として同席します | 説明・提案力
 |詳細設計| スライド | 画面遷移図を作成して確認を進めます<br>テキストベースで質問・回答を行います | 効率化
 |DB設計| | 視認性・拡張性を意識してER図を作成します<br>規模感: 最大30テーブル、70万レコード<br>【その他】インデックス, view, trigger | DBチューニング<br>パーティショニング<br>レプリケーション
-|インフラ|VPS, AWS<br>ロードバランサ<br>スケールアップ |OSからLAMP環境の構築<br>WAFやFail2banでのセキュリティ対策<br>Zabbixでのサービス監視 <br>【その他】LDAP, postfix, AWS-EC2 | AWS, CI/CD<br>AWS Lambda<br>API Gateway<br>Github Action
-|バックエンド|PHP/CakePHP<br>Python | 100 <br>規模感: スケジュール4ヶ月, 見積もり400万円 | チーム開発<br>OSS開発/貢献<br>Go/Node.js/Java
+|インフラ|VPS, AWS<br>ロードバランサ<br>スケールアップ |OSからLAMP環境の構築<br>WAFやFail2banでのセキュリティ対策<br>Zabbixでのサービス監視 <br>【その他】LDAP, postfix, AWS-EC2 | CI/CD<br>AWS, GCP<br>Github Action
+|バックエンド|PHP/CakePHP<br>Python | 規模感: 見積もり400万円 / 3ヶ月 | チーム開発<br>OSS開発/貢献<br>Node.js/Java
 |フロントエンド|React| 使いやすさ・速度を重視します | SSG量<br>結合テスト
 |アプリ開発|ReactNative|スムーズに動作するようメモリを意識します
 
@@ -54,10 +54,10 @@ CentOS6からCentOS7、AlmaLinuxへの移行を担当し、脆弱性対策とと
 |<center>プロジェクト名</center>|<center>期間(目安)</center>|<center>金額(目安)</center>|<center>主な技術</center>|
 |:---:|:---|:---|:---|
 |サイネージアプリ|2022年12月~ 2ヶ月||CakePHP, ReactNative, Python
-|教育支援システム|2022年06月~ 4ヶ月|350万円|CakePHP, React, 言語解析, AWS, Laravel
+|教育支援システム|2022年06月~ 3ヶ月|400万円|CakePHP, React, 言語解析, AWS, Laravel
 |内覧受付システム|2021年10月~ 2ヶ月|200万円|WordPress
 |販促システム|2021年07月~ 2ヶ月|200万円|CakePHP, SMS, OCR, ロードバランサ
-|学内システム|2021年03月~ 4ヶ月|300万円|CakePHP, LDAPS
+|学内システム|2021年03月~ 3ヶ月|300万円|CakePHP, LDAPS
 |見積システム|2020年06月~ 3ヶ月||CakePHP, Backlog
 
 
